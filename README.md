@@ -7,7 +7,7 @@ curl -sSL https://blog.zhouzhipeng.com/go/commit_wordpress_docker | bash  -s '20
 ```
 
 
-### 备份wordpress数据库
+### 备份wordpress mysql数据库
 ```bash
-curl -sSL https://blog.zhouzhipeng.com/go/backup_wordpress | bash
+curl -sSL https://blog.zhouzhipeng.com/go/backup_wordpress_mysql | bash -s 'mysql密码'
 ```
